@@ -1,5 +1,8 @@
 # Futuristic Screensaver & Interactive Dashboard (`Protetor de Tela Futurista`)
 
+<img width="1318" height="773" alt="image" src="https://github.com/user-attachments/assets/8f654fe8-0fa2-466e-9d20-22c00e95b9ca" />
+
+
 An ultra-polished, highly interactive, fullscreen sci-fi dashboard and screensaver UI. It blends bio-digital designs, cyber telemetry coordinates, and sleek floating windows. The user interface features modular, elegant hud displays including real-time weather tracking, financial indicators, interactive alarms, standard countdown reminders, a customizable ambient MP3 player, and a streamlined YouTube backing widget.
 
 ---

@@ -1,0 +1,6 @@
+{
+  "name": "Protetor de Tela Futurista",
+  "description": "Um protetor de tela interativo em tela cheia com design bio-digital, widgets de clima, finanças da Web3, alarmes, músicas e player de YouTube integrados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

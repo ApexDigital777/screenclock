@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom Scanlines Scan Line effect */
+.scanlines-overlay {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  );
+  background-size: 100% 4px;
+}
+
+/* Cyber Terminal glows and animations */
+@keyframes glow {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; filter: drop-shadow(0 0 10px rgba(0, 255, 204, 0.6)); }
+}
+
+.glow-line {
+  animation: glow 3s infinite ease-in-out;
+}
+
+@keyframes holographic {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+.hologram-scan {
+  animation: holographic 8s infinite linear;
+}
+
+@keyframes red-emergency {
+  0%, 100% { background-color: rgba(127, 29, 29, 0.15); }
+  50% { background-color: rgba(239, 68, 68, 0.4); }
+}
+
+.emergency-strobe {
+  animation: red-emergency 1.5s infinite ease-in-out;
+}
+
+/* Custom scrollbar to match futuristic dark theme */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(2, 6, 23, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.15);
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.35);
+}

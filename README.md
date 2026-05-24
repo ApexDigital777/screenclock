@@ -7,7 +7,7 @@ An ultra-polished, highly interactive, fullscreen sci-fi dashboard and screensav
 
 ---
 
-## 🎨 Design Theme Modes
+## Design Theme Modes
 
 Users can seamlessly swap styles on the fly using the **Floating Theme Selector** button in the bottom right:
 
@@ -22,7 +22,7 @@ Users can seamlessly swap styles on the fly using the **Floating Theme Selector*
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Full-Screen Ambient Screensaver / HUD Layout**: Clean space division and negative margins styled for desktop and mobile fidelity.
 - **Dynamic Clock & Alarm Widget**: Track local time, current state, active timers, and configure customizable audio alarms.
@@ -35,14 +35,14 @@ Users can seamlessly swap styles on the fly using the **Floating Theme Selector*
 
 ---
 
-## 🔒 Security & Safe Pushing
+##  Security & Safe Pushing
 This application is **100% clean and safe** for pushing directly to public hosting providers like GitHub:
 - **No Hardcoded API Keys**: All state arrays or map element identification properties key values are strictly local programming properties. No real passwords, secret tokens, or sensitive values are committed in plain text.
 - **Strict `.gitignore` Boundaries**: Built-in instructions fully ignore local `.env` variations, ensuring your unique local API credentials or keys are never exposed.
 
 ---
 
-## 📦 Local Installation Guide
+##  Local Installation Guide
 
 Follow these simple steps to run the interactive dashboard in your local terminal:
 
